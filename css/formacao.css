@@ -4,7 +4,6 @@
 }
 
 .formacao-container {
-    max-width: 1200px;
     padding: 120px 20px;
     margin: 0 auto;
     display: grid;
@@ -124,7 +123,7 @@
         color: #ffffff;
     }
     .formacao-texto {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     .formacao-extra h3::before {
         position: initial;

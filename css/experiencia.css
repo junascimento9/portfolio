@@ -1,5 +1,4 @@
 .experiencia {
-    max-width: 1200px;
     padding: 40px 20px;
     margin: 0 auto;
     display: grid;
@@ -80,6 +79,11 @@
     border-radius: 4px;
     background: #ffffff;
     padding: 5px 10px;
+    cursor: pointer;
+}
+
+.empresa-habilidades li:hover{
+  background: #778DDA;
 }
 
 @media (max-width: 800px) {
@@ -91,7 +95,7 @@
         color: #141414;
     }
     .experiencia-texto {
-        font: 1.25rem;
+        font: 1rem;
     }
     .empresa-ano {
         position: initial;

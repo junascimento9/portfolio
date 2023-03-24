@@ -1,5 +1,4 @@
 .introducao {
-    max-width: 1200px;
     padding: 40px 20px;
     margin: 0 auto;
     display: grid;
@@ -49,11 +48,13 @@ p span {
 
 @media (max-width: 800px) {
     .introducao {
+        padding-top: 40px;
         grid-template-columns: 1fr 1fr;
         gap: 40px;
+        justify-content: center;
     }
     .introducao h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .introducao h1::before {
         width: 30px;
@@ -62,8 +63,9 @@ p span {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .introducao {
+        margin-top: 10px;
         grid-template-columns: 1fr;
         justify-content: center;
     }
